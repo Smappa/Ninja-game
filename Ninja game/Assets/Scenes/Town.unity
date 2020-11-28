@@ -5388,6 +5388,22 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1875727966561666485, guid: aab3a1141e9e04240a315859ec5d66f4, type: 3}
   m_PrefabInstance: {fileID: 628564292}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &511413839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511413838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1999370065, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: aae783ef33837444e87d2bf26b9884de, type: 2}
 --- !u!1001 &628564292
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5403,13 +5419,17 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Sword
       objectReference: {fileID: 0}
+    - target: {fileID: 1505472424, guid: aab3a1141e9e04240a315859ec5d66f4, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1875727966561666485, guid: aab3a1141e9e04240a315859ec5d66f4, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 1875727966561666487, guid: aab3a1141e9e04240a315859ec5d66f4, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"playerSpeed","value":{"$content":300.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpForce","value":{"$content":6.5,"$type":"System.Single"},"$version":"A"},{"name":"grounded","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"jumpCounter","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Sword","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"playerSpeed","value":{"$content":300.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpForce","value":{"$content":6.5,"$type":"System.Single"},"$version":"A"},{"name":"grounded","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"jumpCounter","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Sword","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 1875727966561666490, guid: aab3a1141e9e04240a315859ec5d66f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7853,6 +7873,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2106481785846209154, guid: f592fed2df10537408040faaf9a72f1c, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"enemyHealth","value":{"$content":3,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 2857467444516125136, guid: f592fed2df10537408040faaf9a72f1c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.51
@@ -7903,11 +7927,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2857467444516125138, guid: f592fed2df10537408040faaf9a72f1c, type: 3}
       propertyPath: m_Mass
-      value: 50
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2857467444516125138, guid: f592fed2df10537408040faaf9a72f1c, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2857467444516125138, guid: f592fed2df10537408040faaf9a72f1c, type: 3}
+      propertyPath: m_UseAutoMass
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2857467444516125141, guid: f592fed2df10537408040faaf9a72f1c, type: 3}
       propertyPath: m_Name
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 2857467444516125141, guid: f592fed2df10537408040faaf9a72f1c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f592fed2df10537408040faaf9a72f1c, type: 3}
