@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 504, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 11354
+  controlID: 1734
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -51,7 +51,7 @@ MonoBehaviour:
     height: 910
   m_ViewDataDictionary: {fileID: 0}
   _data:
-    _json: '{"locked":false,"isActive":true,"referenceData":{"rootObjectInstanceID":-13810,"parentElementGuids":[]},"sidebars":{"left":{"size":335.0,"scroll":{"x":0.0,"y":0.0}},"right":{"size":300.0,"scroll":{"x":0.0,"y":0.0}},"panels":[{"height":524.0,"anchor":"Left","order":0,"controlHint":{"$content":"Ludiq.GraphInspectorPanel","$type":"System.RuntimeType"},"scroll":{"x":0.0,"y":0.0}},{"height":200.0,"anchor":"Left","order":0,"controlHint":{"$content":"Bolt.VariablesPanel","$type":"System.RuntimeType"},"scroll":{"x":0.0,"y":0.0}}]},"reliablePosition":{"xMin":1526.0,"yMin":81.0,"xMax":1911.0,"yMax":991.0},"m_MinSize":{"x":100.0,"y":100.0},"m_MaxSize":{"x":4000.0,"y":4000.0},"m_TitleContent":{"m_Text":"Flow
+    _json: '{"locked":false,"isActive":true,"referenceData":{"rootObjectInstanceID":-1260,"parentElementGuids":["92f4bd1a-e375-4408-bf0c-df84ad62551c"]},"sidebars":{"left":{"size":335.0,"scroll":{"x":0.0,"y":0.0}},"right":{"size":300.0,"scroll":{"x":0.0,"y":0.0}},"panels":[{"height":524.0,"anchor":"Left","order":0,"controlHint":{"$content":"Ludiq.GraphInspectorPanel","$type":"System.RuntimeType"},"scroll":{"x":0.0,"y":0.0}},{"height":200.0,"anchor":"Left","order":0,"controlHint":{"$content":"Bolt.VariablesPanel","$type":"System.RuntimeType"},"scroll":{"x":0.0,"y":0.0}}]},"reliablePosition":{"xMin":1526.0,"yMin":81.0,"xMax":1911.0,"yMax":991.0},"m_MinSize":{"x":100.0,"y":100.0},"m_MaxSize":{"x":4000.0,"y":4000.0},"m_TitleContent":{"m_Text":"Flow
       Graph","m_Image":null,"m_Tooltip":""},"m_Pos":{"xMin":1526.0,"yMin":81.0,"xMax":1911.0,"yMax":991.0},"m_ViewDataDictionary":null}'
     _objectReferences: []
 --- !u!114 &3
@@ -78,7 +78,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 10658
+  controlID: 1664
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -103,7 +103,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 10659
+  controlID: 1665
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -158,9 +158,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 4a620000
-      m_LastClickedID: 25162
-      m_ExpandedIDs: bcc9ffff32caffff8acbffff72d0ffff7a620000
+      m_SelectedIDs: 3a3e0000
+      m_LastClickedID: 15930
+      m_ExpandedIDs: 38fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -248,9 +248,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -8.691326, y: 0.3503837, z: -2.912738}
+    m_Target: {x: -8.671696, y: 0.3437922, z: -2.9658282}
     speed: 2
-    m_Value: {x: -8.691326, y: 0.3503837, z: -2.912738}
+    m_Value: {x: -8.823343, y: 0.39471167, z: -2.9581556}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -301,9 +301,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2.051871
+    m_Target: 2.039431
     speed: 2
-    m_Value: 2.051871
+    m_Value: 2.13553
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -519,9 +519,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 77}
-    m_SelectedIDs: ee510000
-    m_LastClickedID: 20974
-    m_ExpandedIDs: 00000000d2510000d4510000d651000000ca9a3b
+    m_SelectedIDs: 0e400000
+    m_LastClickedID: 16398
+    m_ExpandedIDs: 00000000e23f0000e43f0000e63f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -549,7 +549,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d2510000d4510000d651000000ca9a3b
+    m_ExpandedIDs: 00000000e23f0000e43f0000e63f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -574,8 +574,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 4a620000
-    m_LastClickedInstanceID: 25162
+    m_SelectedInstanceIDs: 3a3e0000
+    m_LastClickedInstanceID: 15930
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -688,7 +688,7 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: 16190
   m_LastVerticalScrollValue: 0
   m_AssetGUID: 
   m_InstanceID: 0
