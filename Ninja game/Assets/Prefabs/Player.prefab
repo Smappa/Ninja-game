@@ -277,7 +277,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 60
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -299,7 +299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"playerSpeed","value":{"$content":300.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpForce","value":{"$content":6.7,"$type":"System.Single"},"$version":"A"},{"name":"grounded","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"jumpCounter","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Sword","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"OneWayPlatform","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"fallMultiplier","value":{"$content":1.3,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"playerSpeed","value":{"$content":300.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpForce","value":{"$content":6.6,"$type":"System.Single"},"$version":"A"},{"name":"grounded","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"jumpCounter","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Sword","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"OneWayPlatform","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"fallMultiplier","value":{"$content":1.2,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1505472423}
     - {fileID: 0}
