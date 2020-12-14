@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 26032301}
   - component: {fileID: 26032300}
+  - component: {fileID: 26032303}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -167,6 +168,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &26032303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26032299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &60117235
 GameObject:
   m_ObjectHideFlags: 0
@@ -6102,13 +6118,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1505472423, guid: aab3a1141e9e04240a315859ec5d66f4, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1875727966561666485, guid: aab3a1141e9e04240a315859ec5d66f4, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875727966561666487, guid: aab3a1141e9e04240a315859ec5d66f4, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"playerSpeed","value":{"$content":300.0,"$type":"System.Single"},"$version":"A"},{"name":"jumpForce","value":{"$content":6.6,"$type":"System.Single"},"$version":"A"},{"name":"grounded","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"jumpCounter","value":{"$content":1,"$type":"System.Int32"},"$version":"A"},{"name":"Sword","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"OneWayPlatform","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"fallMultiplier","value":{"$content":1.2,"$type":"System.Single"},"$version":"A"},{"name":"HasKey","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 1875727966561666490, guid: aab3a1141e9e04240a315859ec5d66f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8021,6 +8037,8 @@ GameObject:
   - component: {fileID: 1536090265}
   - component: {fileID: 1536090264}
   - component: {fileID: 1536090263}
+  - component: {fileID: 1536090267}
+  - component: {fileID: 1536090266}
   m_Layer: 10
   m_Name: Tilemap_door
   m_TagString: Untagged
@@ -8317,6 +8335,37 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!114 &1536090266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536090259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: dc230d29c7bfcdb44836d9fdc3d93c18, type: 2}
+--- !u!114 &1536090267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536090259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1001 &1570968611
 PrefabInstance:
   m_ObjectHideFlags: 0

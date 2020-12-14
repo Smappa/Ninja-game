@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Door
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":344.0525,"y":-3.364647},"zoom":0.6999999,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"tag":{"$content":"Player","$type":"System.String"}},"position":{"x":-591.0,"y":-76.0},"guid":"2472a5e9-32b6-4e24-84bd-3821e70dcebf","$version":"A","$type":"Bolt.SuperUnit","$id":"9"},{"defaultValues":{},"position":{"x":-104.0,"y":-93.0},"guid":"006175ea-a39b-484b-ada0-d594b8663427","$version":"A","$type":"Bolt.Branch","$id":"12"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"HasKey","$type":"System.String"},"object":null},"position":{"x":-299.0,"y":48.0},"guid":"3d7208ca-1c57-434c-8672-0fc28df18054","$version":"A","$type":"Bolt.GetVariable","$id":"14"},{"chainable":false,"member":{"name":"Destroy","parameterTypes":["UnityEngine.Object"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"%obj":null},"position":{"x":400.0,"y":-231.0},"guid":"1a20c462-e0f6-439e-8da7-cc0add7294ea","$version":"A","$type":"Bolt.InvokeMember","$id":"16"},{"defaultValues":{},"position":{"x":180.0,"y":-76.0},"guid":"3f676689-8299-4c87-9ae2-b5e7ebe8980e","$version":"A","$type":"Bolt.Self","$id":"19"},{"chainable":false,"member":{"name":"Log","parameterTypes":["System.Object"],"targetType":"UnityEngine.Debug","targetTypeName":"UnityEngine.Debug","$version":"A"},"defaultValues":{},"position":{"x":480.0,"y":129.0},"guid":"f734d806-62cc-4295-8f12-41ff2f103318","$version":"A","$type":"Bolt.InvokeMember","$id":"21"},{"type":"System.String","value":{"$content":"\"Missing
+      Key!\"","$type":"System.String"},"defaultValues":{},"position":{"x":142.0,"y":201.0},"guid":"bbf5d39d-fc84-4c3d-9182-3c42b3dd4260","$version":"A","$type":"Bolt.Literal","$id":"24"},{"sourceUnit":{"$ref":"9"},"sourceKey":"target","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"bc7f69d3-d25e-4440-ad8e-ca1e21c328eb","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"35b71e1c-0da5-4495-863a-047ac160b3ea","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"ifFalse","destinationUnit":{"$ref":"21"},"destinationKey":"enter","guid":"b0ba1e9e-935e-4dc4-a7b6-9ed3004fda77","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"object","destinationUnit":{"$ref":"14"},"destinationKey":"object","guid":"c7ddcf7a-b5a8-4277-8b1a-83b959778460","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"condition","guid":"ee67621d-aa98-47c5-ab5c-d3e8c384caa5","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"self","destinationUnit":{"$ref":"16"},"destinationKey":"%obj","guid":"f4cb31b4-04e3-4b24-8b44-b2dffc2dc0c6","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"24"},"sourceKey":"output","destinationUnit":{"$ref":"21"},"destinationKey":"%message","guid":"acf659be-5cca-4937-b870-c59ac7a0f422","$type":"Bolt.ValueConnection"},{"position":{"xMin":97.0,"yMin":-284.0,"xMax":839.0,"yMax":64.0},"label":"Has
+      Key","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"641cec93-686b-4cd5-9a46-d27fb9601594","$version":"A","$type":"Ludiq.GraphGroup"},{"position":{"xMin":117.0,"yMin":65.0,"xMax":745.0,"yMax":397.0},"label":"No
+      Key","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"ff5e9776-f15b-4c20-982d-bebf786e62a2","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: db1f2ae7c46a7f749b61e9bde2dbe90a, type: 2}
