@@ -322,6 +322,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1505472423, guid: aab3a1141e9e04240a315859ec5d66f4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1875727966561666485, guid: aab3a1141e9e04240a315859ec5d66f4, type: 3}
       propertyPath: m_Name
       value: Player
@@ -13706,6 +13710,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destructible_boards
       objectReference: {fileID: 0}
+    - target: {fileID: 2342943332288595360, guid: 93b9f405d0b904346a19a904b1a151f3, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93b9f405d0b904346a19a904b1a151f3, type: 3}
 --- !u!1001 &1988672729773656631
@@ -13759,6 +13767,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1988672730779270613, guid: dbd946f9e5b97a742b5afacf640b315e, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"Scene","value":{"$content":"MainLevel","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 1988672730779270615, guid: dbd946f9e5b97a742b5afacf640b315e, type: 3}
       propertyPath: m_Name
       value: LevelChange
@@ -13772,6 +13784,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 323854989, guid: d011a550c1a91cb4996454d0d28d72a0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1297292466, guid: d011a550c1a91cb4996454d0d28d72a0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2450504805704776914, guid: d011a550c1a91cb4996454d0d28d72a0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.1100006
@@ -13820,6 +13840,10 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 212410045}
+    - target: {fileID: 2450504805704776942, guid: d011a550c1a91cb4996454d0d28d72a0, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"target","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"smoothSpeed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"offset","value":{"x":0.0,"y":0.7,"z":-10.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"leftLimit","value":{"$content":-7.0,"$type":"System.Single"},"$version":"A"},{"name":"rightLimit","value":{"$content":37.0,"$type":"System.Single"},"$version":"A"},{"name":"bottomLimit","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"topLimit","value":{"$content":4.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 2450504805704776943, guid: d011a550c1a91cb4996454d0d28d72a0, type: 3}
       propertyPath: m_Name
       value: Main Camera
