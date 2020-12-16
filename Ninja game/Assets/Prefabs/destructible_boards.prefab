@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 1186664380975228901}
   - component: {fileID: 2342943332288595360}
   - component: {fileID: 8413006066121969201}
-  - component: {fileID: 8480924073303758049}
-  m_Layer: 0
+  - component: {fileID: 1186664380813327613}
+  m_Layer: 15
   m_Name: destructible_boards
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!114 &8480924073303758049
+--- !u!114 &1186664380813327613
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1186664380975228903}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1999370065, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
