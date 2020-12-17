@@ -8,6 +8,7 @@ TagManager:
   - Sword
   - Boss
   - Key
+  - Sign
   layers:
   - Default
   - TransparentFX
