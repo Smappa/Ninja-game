@@ -1,7 +1,22 @@
 fileFormatVersion: 2
 guid: f1498e69efa28974eb3ba5000c356677
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1482548853177997847
+    second: hurtsamuraibossslash-Sheet_0
+  - first:
+      213: 459946263817347843
+    second: hurtsamuraibossslash-Sheet_1
+  - first:
+      213: -3008791302163444176
+    second: hurtsamuraibossslash-Sheet_2
+  - first:
+      213: -3856752176294858590
+    second: hurtsamuraibossslash-Sheet_3
+  - first:
+      213: 1912374882753864681
+    second: hurtsamuraibossslash-Sheet_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,12 +56,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -73,9 +88,126 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: hurtsamuraibossslash-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 52
+        height: 51
+      alignment: 9
+      pivot: {x: 0.4908139, y: 0.4157053}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a56dbb352139410800000000000000
+      internalID: 1482548853177997847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurtsamuraibossslash-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 0
+        width: 52
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5000006, y: 0.42892176}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303e996a0be026600800000000000000
+      internalID: 459946263817347843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurtsamuraibossslash-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 0
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e434f7040ae36d0800000000000000
+      internalID: -3008791302163444176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurtsamuraibossslash-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 0
+        width: 95
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0fa3164501a7ac0800000000000000
+      internalID: -3856752176294858590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hurtsamuraibossslash-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 0
+        width: 91
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e36cebd2de1a8a10800000000000000
+      internalID: 1912374882753864681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
